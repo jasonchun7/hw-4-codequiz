@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a id="highscorelink">High Scores</a>
+        <span id="timer"></span>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div class="card-body">
+          <h2 class="card-title">Quiz Challenge</h2>
+          <h4>
+            Try to answer the following '' questions within the time limit!
+            Wrong answers <strong>WILL</strong> decrement your time and score!
+          </h4>
+          <button type="submit" id="startquiz">Start Quiz</button>
+
+          <div id="quiz"></div>
+          <div id="score"></div>
+          <div id="highscores"></div>
+        </div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
