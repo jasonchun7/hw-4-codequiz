@@ -16,21 +16,27 @@
 
     <main>
       <div class="container">
-        <div class="card-body">
-          <h2 class="card-title">Quiz Challenge</h2>
-          <h4>
-            Try to answer the following '' questions within the time limit!
-            Wrong answers <strong>WILL</strong> decrement your time and score!
-          </h4>
-          <button type="submit" id="startquiz">Start Quiz</button>
+        <div class="body">
+          <h2 id="title">California Quiz Challenge</h2>
+          <div id="mainContent">
+            <h4>
+              Try to answer the following California questions within the time
+              limit! Wrong answers <strong>WILL</strong> decrement your time and
+              score!
+            </h4>
+            <button type="submit" id="startquiz">Start Quiz</button>
+          </div>
 
           <div id="quiz"></div>
           <div id="score"></div>
           <div id="highscores"></div>
         </div>
       </div>
+
+      <div id="answer"></div>
     </main>
 
+    <script src="js/questions.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
