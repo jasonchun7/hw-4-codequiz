@@ -5,12 +5,12 @@ var questions = [
         answer: 'West Coast'
     },
     {
-        title: 'Where does California rank in population compared to all other states?',
+        title: 'Where does California rank in POPULATION compared to all other states?',
         choices: ['first', 'second', 'third', 'fourth'],
         answer: 'first'
     },
     {
-        title: 'Where does California rank in area compared to the rest of the states?',
+        title: 'Where does California rank in AREA compared to the rest of the states?',
         choices: ['first', 'second', 'third', 'fourth'],
         answer: 'third'
     },
